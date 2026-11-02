@@ -1,0 +1,26 @@
+{
+ "eve": [
+  "eve_neutral.webp"
+ ],
+ "looks": {
+  "t1-closeup": [
+   "eve_neutral.webp"
+  ],
+  "t1-pub-rain": [
+   "eve_neutral.webp"
+  ],
+  "t2-pub-autumn": [
+   "eve_neutral.webp"
+  ],
+  "t2-pub-library": [
+   "eve_neutral.webp"
+  ],
+  "t3-pub-barista": [
+   "eve_neutral.webp"
+  ],
+  "t3-pub-gamer": [
+   "eve_neutral.webp"
+  ]
+ },
+ "voice": []
+}
