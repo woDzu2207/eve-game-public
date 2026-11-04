@@ -1,6 +1,6 @@
 // Offline cache. Pages + JSON manifests: network-first. Scene videos / Range requests: network only. Other static assets: cache-first.
 // CACHE gets a unique suffix on every build (vite.config.ts stamps the build id), so old caches are dropped.
-const CACHE = 'eve-public-v3-mvzpb57i';
+const CACHE = 'eve-public-v3-mw1qj4rn';
 const CORE = ['./', './index.html', './manifest.webmanifest', './assets/eve/eve_neutral.webp', './icons/icon-192.png'];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(CORE)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', (e) => {
